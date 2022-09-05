@@ -1,0 +1,43 @@
+.cabecalho{
+    text-align: center;
+    height: 10vh;
+
+    h1{
+        font-size: 2em;
+        color: #898585;
+    }
+}
+
+.componente{
+    background-color:#F5F6FA;
+    height: 39.7em;
+
+    padding-top: 3em;
+}
+
+.caixa{
+    background-color: #fff;
+    border-radius: 12px;
+    
+    width: 80em;
+    height: 68vh ;
+    margin-left: 9.2em;
+
+    padding-top: 1em;
+}
+
+.botao-voltar{
+    margin-left: 46.5em;
+    padding: 8px 20px;
+    font-size: 1.5em;
+
+    border: 1px solid #1e1e1e;
+    border-radius: 5px;
+
+    background-color: #fff;
+    box-shadow: 2.5px 2.5px 1.8px #1e1e1e;
+}
+
+.botao-voltar:hover{
+    transform: scale(1.1);
+}

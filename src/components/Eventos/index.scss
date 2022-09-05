@@ -1,0 +1,59 @@
+.page-container{
+    margin-top: 5em;
+    margin-left: 3em;
+
+    .area{
+        width: 23em;
+        
+        h1{
+            font-size: 2.3em;
+        }
+    }
+}
+
+.Textos{
+    display: flex;
+    flex-direction: column;
+    
+    input{
+        padding: 17px;
+        width: 85em;
+
+        outline: none;
+    }
+
+    select{
+        margin-top: 2em;
+        padding: 17px;
+        width: 88em;
+
+        outline: none;
+    }
+}
+
+.selecionar-1{
+    margin-top: 2em;
+}
+
+.selecionar-2{
+    margin-top: 1em;
+}
+
+.botao{
+    margin-top: 2em;
+
+    button{
+        padding: 1em 2em;
+        text-transform: uppercase;
+
+        border: none;
+        border-radius: 5px;
+
+        color: #fff;
+        background-color: #1e1e1e;
+    }
+
+    button:hover{
+        transform: scale(1.1);
+    }
+}
