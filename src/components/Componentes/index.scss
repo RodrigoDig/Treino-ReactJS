@@ -1,0 +1,70 @@
+.cards{
+    img{
+        border-radius: 10px;
+        box-shadow: 0 0 10px #89807b;
+    }
+    .direita{
+        display: flex;
+        flex-direction: row;
+
+        align-items: center;
+        margin-left: 3em;
+        padding-top: 3em;
+        width: 46em;
+
+        font-size: 1.5em;
+    }
+
+    .Right{
+        position: absolute;
+        margin-top: 2.5em;
+        margin-left: 2.3em;
+
+        font-size: 2em;
+    }
+
+    .esquerda{
+        display: flex;
+        flex-direction: row-reverse;
+
+        align-items: center;
+        width: 46em;
+        margin-left: 3em;
+        padding-top: 3.5em;
+
+        font-size: 1.5em;
+        
+        p{
+            margin-left: 1em;
+        }
+    }
+
+    .Left{
+        position: absolute;
+        margin-left: 30em;
+        margin-top: 3em;
+
+        font-size: 2em;
+    }
+
+    .coluna{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        font-size: 1em;
+
+        margin-top: -1.5em;
+        
+        p{
+            text-align: center;
+        }
+    }
+
+    .Sob{
+        font-size: 1.5em;
+        text-align: center;
+        padding-top: 0.2em;
+    }
+}
+
