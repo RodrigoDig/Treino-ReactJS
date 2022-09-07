@@ -27,26 +27,20 @@
     box-shadow: 0 0 1em #d9d9d9;
 }
 
-.parte-final{
-
-}
-
 .alinha{
     background-color: #F5F6FA;
     height: 10vh;
 
     text-align: center;
     button{
+        text-transform: uppercase;
         padding: 15px 50px;
-        background-color: #54869d;
         border: none;
         border-radius: 5px;
+        
+        background-color: #54869d;
         color: #fff;
-        font: bold;
-        text-transform: uppercase;
-
         box-shadow: 5px 5px 1px #355470;
-
     }
 
     button:hover{

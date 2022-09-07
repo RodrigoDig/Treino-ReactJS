@@ -1,0 +1,56 @@
+.titulo-comp{
+    text-align: center;
+    height: 10vh;
+
+    h1{
+        font-size: 2em;
+        color: #898585;
+    }
+}
+
+.page-comp{
+    background-color: #F5F6FA;
+    height: 150vh;
+}
+
+.espacamento-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding-top: 4em;
+}
+
+.card{
+    width: 40em;
+    height: 30em;
+    margin: 0 3em;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 1em #d9d9d9;
+    background-color: #fff;
+}
+
+.espacamento-botao{
+    margin-top: 2.5em;
+    margin-left: 45.6em;
+
+    button{
+        padding: 12px 35px;
+
+        text-transform: uppercase;
+        font-size: 13px;
+
+        background-color: #fff;
+        color: #1e1e1e;
+
+        border: 1px solid #1e1e1e;
+        border-radius: 5px;
+        box-shadow: 3px 3px #1e1e1e;
+    }
+
+    button:hover{
+        transform: scale(1.1);
+    }
+}
